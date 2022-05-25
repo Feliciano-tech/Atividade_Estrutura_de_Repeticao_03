@@ -14,14 +14,14 @@ public class Exercicio_03 {
 		for (int i = 0; i < 1000; i++) { //utilizacao da estrutura de repetica for e declarando condicao para inicio do "laco".
 
 			System.out.print(
-					"\nComo Gostaria de ser identificado: \n\n0- Mulher \n1- Homen \n2- Outros\n\nDigite o numero:");  //imprimir 1° orientacao ao usuario.
+					"\nComo Gostaria de ser identificado: \n\n0- Mulher \n1- Homen \n2- Outros\n\nDigite o numero:");  //imprimir 1Â° orientacao ao usuario.
 			gene = ler.nextInt(); //scaneando teclado do usuario e guardando dentro da variavel gene.
 
-			System.out.print("\nDigite sua altura: "); //imprimir 2° orientacao ao usuario.
+			System.out.print("\nDigite sua altura: "); //imprimir 2Â° orientacao ao usuario.
 			altura = ler.nextDouble();//scaneando teclado do usuario e guardando dentro da variavel altura.
 
 
-			System.out.print("\nDigite quantos anos possui: ");//imprimir 3° orientacao ao usuario.
+			System.out.print("\nDigite quantos anos possui: ");//imprimir 3Â° orientacao ao usuario.
 			idade = ler.nextInt();//scaneando teclado do usuario e guardando dentro da variavel idade.
 
 
@@ -48,16 +48,16 @@ public class Exercicio_03 {
 			idadeGeral += idade; //aqui somamos todas as idades escaneadas e guardamos na variavel idadeGeral
 		}
 
-		System.out.print("\nidade media do grupo: " + idadeGeral / 1000); //aqui dividimos a "idadeGeral" pela quantidade de vezes que o programa repetir e mostramos ao usuario o resultado. 
+		System.out.print("\nIdade media do grupo: " + idadeGeral / 1000); //aqui dividimos a "idadeGeral" pela quantidade de vezes que o programa repetir e mostramos ao usuario o resultado. 
 		
-		System.out.print("\naltura media das mulheres: " + alturaMedia / wom);//aqui dividimos "alturaMedia" por "Won" e mostramos ao usuario.
+		System.out.print("\nAltura media das mulheres: " + alturaMedia / wom);//aqui dividimos "alturaMedia" por "Won" e mostramos ao usuario.
 		
-		System.out.print("\nquantidade de outros:" + other);//aqui mostramos ao usuario a quantidade de pesoas que se identificaram como "outros".
+		System.out.print("\nQuantidade de outros:" + other);//aqui mostramos ao usuario a quantidade de pesoas que se identificaram como "outros".
 		
-		System.out.print("\no porcentual de pessoas entre 18 e 35 e de:" + (idadeEntre * 100) / 1000);//aqui multiplicamos "idadeEntre" por 100 e dividimos pela quantidade de vezes- 
+		System.out.print("\nPorcentual de pessoas entre 18 e 35 e de:" + (idadeEntre * 100) / 1000);//aqui multiplicamos "idadeEntre" por 100 e dividimos pela quantidade de vezes- 
 		                                                                                              //que o programa repetir para obtermos o valor em porcentagem e mostramos ao usuario.
 		
-		System.out.print("\nmedia idade homens: " + idadeMen / men);//aqui dividimos "idadeMen" por "men" e mostramos ao usuario.
+		System.out.print("\nIdade media dos homens: " + idadeMen / men);//aqui dividimos "idadeMen" por "men" e mostramos ao usuario.
 		
 		ler.close();
 
