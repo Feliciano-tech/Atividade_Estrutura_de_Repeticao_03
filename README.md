@@ -32,7 +32,7 @@ Inicio
       escreva(idade media dos homens)
 Fim      
 
-!Fluxograma[https://github.com/Feliciano-tech/Atividade_Estrutura_de_Repeticao_03/blob/main/Fluxograma-pesquisa-de-habitantes.png]
+![Fluxograma](https://github.com/Feliciano-tech/Atividade_Estrutura_de_Repeticao_03/blob/main/Fluxograma-pesquisa-de-habitantes.png)
       
 
      
