@@ -31,7 +31,8 @@ Inicio
       escreva(porcentagem de pessoas entre 18 e 35 anos)
       escreva(idade media dos homens)
 Fim      
-      
+
+!Fluxograma[]
       
 
      
